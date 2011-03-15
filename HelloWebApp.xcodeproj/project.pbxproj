@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FDEACD3132F3BD400D0163A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDEACD2132F3BD400D0163A /* UIKit.framework */; };
+		9FDEACD5132F3BD400D0163A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDEACD4132F3BD400D0163A /* Foundation.framework */; };
+		9FDEACD7132F3BD400D0163A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDEACD6132F3BD400D0163A /* CoreGraphics.framework */; };
+		9FDEACDD132F3BD400D0163A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FDEACDB132F3BD400D0163A /* InfoPlist.strings */; };
+		9FDEACE0132F3BD400D0163A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDEACDF132F3BD400D0163A /* main.m */; };
+		9FDEACE3132F3BD400D0163A /* HelloWebAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDEACE2132F3BD400D0163A /* HelloWebAppAppDelegate.m */; };
+		9FDEACE6132F3BD400D0163A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FDEACE4132F3BD400D0163A /* MainWindow.xib */; };
+		9FDEACED132F3BD400D0163A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDEACD2132F3BD400D0163A /* UIKit.framework */; };
+		9FDEACEE132F3BD400D0163A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDEACD4132F3BD400D0163A /* Foundation.framework */; };
+		9FDEACEF132F3BD400D0163A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDEACD6132F3BD400D0163A /* CoreGraphics.framework */; };
+		9FDEACF7132F3BD400D0163A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FDEACF5132F3BD400D0163A /* InfoPlist.strings */; };
+		9FDEACFA132F3BD400D0163A /* HelloWebAppTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 9FDEACF9132F3BD400D0163A /* HelloWebAppTests.h */; };
+		9FDEACFC132F3BD400D0163A /* HelloWebAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDEACFB132F3BD400D0163A /* HelloWebAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FDEACF0132F3BD400D0163A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FDEACC5132F3BD400D0163A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FDEACCD132F3BD400D0163A;
+			remoteInfo = HelloWebApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FDEACCE132F3BD400D0163A /* HelloWebApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWebApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FDEACD2132F3BD400D0163A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9FDEACD4132F3BD400D0163A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9FDEACD6132F3BD400D0163A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9FDEACDA132F3BD400D0163A /* HelloWebApp-Info.plist */ = {isa = PBXFileReference; path = "HelloWebApp-Info.plist"; sourceTree = "<group>"; };
+		9FDEACDC132F3BD400D0163A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9FDEACDE132F3BD400D0163A /* HelloWebApp-Prefix.pch */ = {isa = PBXFileReference; path = "HelloWebApp-Prefix.pch"; sourceTree = "<group>"; };
+		9FDEACDF132F3BD400D0163A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FDEACE1132F3BD400D0163A /* HelloWebAppAppDelegate.h */ = {isa = PBXFileReference; path = HelloWebAppAppDelegate.h; sourceTree = "<group>"; };
+		9FDEACE2132F3BD400D0163A /* HelloWebAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWebAppAppDelegate.m; sourceTree = "<group>"; };
+		9FDEACE5132F3BD400D0163A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		9FDEACEC132F3BD400D0163A /* HelloWebAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWebAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FDEACF4132F3BD400D0163A /* HelloWebAppTests-Info.plist */ = {isa = PBXFileReference; path = "HelloWebAppTests-Info.plist"; sourceTree = "<group>"; };
+		9FDEACF6132F3BD400D0163A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9FDEACF8132F3BD400D0163A /* HelloWebAppTests-Prefix.pch */ = {isa = PBXFileReference; path = "HelloWebAppTests-Prefix.pch"; sourceTree = "<group>"; };
+		9FDEACF9132F3BD400D0163A /* HelloWebAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWebAppTests.h; sourceTree = "<group>"; };
+		9FDEACFB132F3BD400D0163A /* HelloWebAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWebAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FDEACCB132F3BD400D0163A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDEACD3132F3BD400D0163A /* UIKit.framework in Frameworks */,
+				9FDEACD5132F3BD400D0163A /* Foundation.framework in Frameworks */,
+				9FDEACD7132F3BD400D0163A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FDEACE8132F3BD400D0163A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDEACED132F3BD400D0163A /* UIKit.framework in Frameworks */,
+				9FDEACEE132F3BD400D0163A /* Foundation.framework in Frameworks */,
+				9FDEACEF132F3BD400D0163A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FDEACC3132F3BD400D0163A = {
+			isa = PBXGroup;
+			children = (
+				9FDEACD8132F3BD400D0163A /* HelloWebApp */,
+				9FDEACF2132F3BD400D0163A /* HelloWebAppTests */,
+				9FDEACD1132F3BD400D0163A /* Frameworks */,
+				9FDEACCF132F3BD400D0163A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FDEACCF132F3BD400D0163A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FDEACCE132F3BD400D0163A /* HelloWebApp.app */,
+				9FDEACEC132F3BD400D0163A /* HelloWebAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FDEACD1132F3BD400D0163A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FDEACD2132F3BD400D0163A /* UIKit.framework */,
+				9FDEACD4132F3BD400D0163A /* Foundation.framework */,
+				9FDEACD6132F3BD400D0163A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FDEACD8132F3BD400D0163A /* HelloWebApp */ = {
+			isa = PBXGroup;
+			children = (
+				9FDEACE1132F3BD400D0163A /* HelloWebAppAppDelegate.h */,
+				9FDEACE2132F3BD400D0163A /* HelloWebAppAppDelegate.m */,
+				9FDEACE4132F3BD400D0163A /* MainWindow.xib */,
+				9FDEACD9132F3BD400D0163A /* Supporting Files */,
+			);
+			path = HelloWebApp;
+			sourceTree = "<group>";
+		};
+		9FDEACD9132F3BD400D0163A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FDEACDA132F3BD400D0163A /* HelloWebApp-Info.plist */,
+				9FDEACDB132F3BD400D0163A /* InfoPlist.strings */,
+				9FDEACDE132F3BD400D0163A /* HelloWebApp-Prefix.pch */,
+				9FDEACDF132F3BD400D0163A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FDEACF2132F3BD400D0163A /* HelloWebAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FDEACF9132F3BD400D0163A /* HelloWebAppTests.h */,
+				9FDEACFB132F3BD400D0163A /* HelloWebAppTests.m */,
+				9FDEACF3132F3BD400D0163A /* Supporting Files */,
+			);
+			path = HelloWebAppTests;
+			sourceTree = "<group>";
+		};
+		9FDEACF3132F3BD400D0163A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FDEACF4132F3BD400D0163A /* HelloWebAppTests-Info.plist */,
+				9FDEACF5132F3BD400D0163A /* InfoPlist.strings */,
+				9FDEACF8132F3BD400D0163A /* HelloWebAppTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FDEACCD132F3BD400D0163A /* HelloWebApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FDEACFF132F3BD400D0163A /* Build configuration list for PBXNativeTarget "HelloWebApp" */;
+			buildPhases = (
+				9FDEACCA132F3BD400D0163A /* Sources */,
+				9FDEACCB132F3BD400D0163A /* Frameworks */,
+				9FDEACCC132F3BD400D0163A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWebApp;
+			productName = HelloWebApp;
+			productReference = 9FDEACCE132F3BD400D0163A /* HelloWebApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FDEACEB132F3BD400D0163A /* HelloWebAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FDEAD02132F3BD400D0163A /* Build configuration list for PBXNativeTarget "HelloWebAppTests" */;
+			buildPhases = (
+				9FDEACE7132F3BD400D0163A /* Sources */,
+				9FDEACE8132F3BD400D0163A /* Frameworks */,
+				9FDEACE9132F3BD400D0163A /* Resources */,
+				9FDEACEA132F3BD400D0163A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FDEACF1132F3BD400D0163A /* PBXTargetDependency */,
+			);
+			name = HelloWebAppTests;
+			productName = HelloWebAppTests;
+			productReference = 9FDEACEC132F3BD400D0163A /* HelloWebAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FDEACC5132F3BD400D0163A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 9FDEACC8132F3BD400D0163A /* Build configuration list for PBXProject "HelloWebApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9FDEACC3132F3BD400D0163A;
+			productRefGroup = 9FDEACCF132F3BD400D0163A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FDEACCD132F3BD400D0163A /* HelloWebApp */,
+				9FDEACEB132F3BD400D0163A /* HelloWebAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FDEACCC132F3BD400D0163A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDEACDD132F3BD400D0163A /* InfoPlist.strings in Resources */,
+				9FDEACE6132F3BD400D0163A /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FDEACE9132F3BD400D0163A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDEACF7132F3BD400D0163A /* InfoPlist.strings in Resources */,
+				9FDEACFA132F3BD400D0163A /* HelloWebAppTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9FDEACEA132F3BD400D0163A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FDEACCA132F3BD400D0163A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDEACE0132F3BD400D0163A /* main.m in Sources */,
+				9FDEACE3132F3BD400D0163A /* HelloWebAppAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FDEACE7132F3BD400D0163A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDEACFC132F3BD400D0163A /* HelloWebAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FDEACF1132F3BD400D0163A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FDEACCD132F3BD400D0163A /* HelloWebApp */;
+			targetProxy = 9FDEACF0132F3BD400D0163A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FDEACDB132F3BD400D0163A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FDEACDC132F3BD400D0163A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9FDEACE4132F3BD400D0163A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FDEACE5132F3BD400D0163A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		9FDEACF5132F3BD400D0163A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FDEACF6132F3BD400D0163A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FDEACFD132F3BD400D0163A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9FDEACFE132F3BD400D0163A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		9FDEAD00132F3BD400D0163A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWebApp/HelloWebApp-Prefix.pch";
+				INFOPLIST_FILE = "HelloWebApp/HelloWebApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9FDEAD01132F3BD400D0163A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWebApp/HelloWebApp-Prefix.pch";
+				INFOPLIST_FILE = "HelloWebApp/HelloWebApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9FDEAD03132F3BD400D0163A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloWebApp.app/HelloWebApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWebAppTests/HelloWebAppTests-Prefix.pch";
+				INFOPLIST_FILE = "HelloWebAppTests/HelloWebAppTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9FDEAD04132F3BD400D0163A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloWebApp.app/HelloWebApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWebAppTests/HelloWebAppTests-Prefix.pch";
+				INFOPLIST_FILE = "HelloWebAppTests/HelloWebAppTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FDEACC8132F3BD400D0163A /* Build configuration list for PBXProject "HelloWebApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FDEACFD132F3BD400D0163A /* Debug */,
+				9FDEACFE132F3BD400D0163A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FDEACFF132F3BD400D0163A /* Build configuration list for PBXNativeTarget "HelloWebApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FDEAD00132F3BD400D0163A /* Debug */,
+				9FDEAD01132F3BD400D0163A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9FDEAD02132F3BD400D0163A /* Build configuration list for PBXNativeTarget "HelloWebAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FDEAD03132F3BD400D0163A /* Debug */,
+				9FDEAD04132F3BD400D0163A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FDEACC5132F3BD400D0163A /* Project object */;
+}
