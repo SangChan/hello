@@ -12,11 +12,15 @@
 
 
 @synthesize window=_window;
+@synthesize webView;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     [self.window makeKeyAndVisible];
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html" inDirectory:NO];
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:path]]];
     return YES;
 }
 

@@ -9,9 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface HelloWebAppAppDelegate : NSObject <UIApplicationDelegate> {
-
+    IBOutlet UIWebView *webView;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet UIWebView *webView;
 
 @end
